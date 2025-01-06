@@ -1,0 +1,28 @@
+*.class
+.gradle
+/build
+/bin/
+/.settings/
+.project
+.classpath
+.idea
+/out/
+dist/*
+sam-template.yml
+src/main/.aws-sam/build/Function/lib/*
+# Package Files
+*.war
+*.ear
+
+# Serverless directories
+.serverless
+.DS_Store
+/node_modules
+/_warmup/index.js
+dist/*/**
+/deploy-eb.zip
+.env
+.env.dev
+/chat/prompts/*
+/src.iml
+/contracts.iml
